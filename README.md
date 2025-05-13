@@ -6,9 +6,13 @@ This is my first Jetpack Compose-based Android application — an International 
 📌 **Key Highlights**
 ✨ **Jetpack Compose:** The entire UI is built using Jetpack Compose for a modern, declarative experience.
 
+📚 **Module Libraries** – The app is structured into feature-based modules like data, domain, and presentation, enabling better code organization and reusability.
+
 🌿 **Clean Architecture:** The project follows a clean architecture structure with proper separation between UI, Domain, and Data layers.
 
 🏗️ **MVVM + Modular Architecture:** Implements Model-View-ViewModel pattern with modularization for scalability and maintainability.
+
+📦 **Centralized Dependency Management:** All dependencies are managed in a single Gradle file for easy updates and consistency.
 
 🌪️ **Coroutines & Kotlin Flow:** Handles asynchronous data streams using Kotlin Coroutines and Flow.
 
@@ -71,3 +75,16 @@ Implement a scalable architecture with modern Android tools
 Learn to manage state and side-effects in Compose
 
 Gain experience using dependency injection and modularity
+
+🧠 **What I Learned**
+Applying Jetpack Compose to build scalable UIs
+
+Structuring an app using module libraries for each layer
+
+Implementing centralized dependency management via buildSrc
+
+Managing asynchronous data streams with Kotlin Flow and Coroutines
+
+Using Dagger-Hilt for dependency injection across multiple modules
+
+Building custom Composables and handling vertical pagination
